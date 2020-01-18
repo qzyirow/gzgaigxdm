@@ -70,6 +70,10 @@ for element in components:
     results.append(result)
 
 print(results)
+
+
+
+
 # ----------------------------------------------
 # test on regex
 
@@ -105,3 +109,5 @@ ptn = re.compile(test_key)
 res2 = re.finditer(test_key, test)
 # print(res2)
 # ----------------------------------------------
+
+
